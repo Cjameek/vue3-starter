@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import { composition } from './composables/composition'
+import { composition } from './composables/title.js'
 
 const title = composition.getTitle;
 </script>
